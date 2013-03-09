@@ -1,4 +1,4 @@
-[p, ~, ~] = fileparts(mfilename('fullpath'))
+[p, ~, ~] = fileparts(mfilename('fullpath'));
 
 addpath(fullfile(p, 'bgamv120'))
 addpath(fullfile(p, 'matlab'))
