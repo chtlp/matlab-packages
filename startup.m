@@ -1,3 +1,5 @@
+function startup
+
 [p, ~, ~] = fileparts(mfilename('fullpath'));
 
 addpath(fullfile(p, 'bgamv120'))
